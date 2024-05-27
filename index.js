@@ -24,7 +24,7 @@ function transform(excelData) {
     let count = 0;
     return excelData.map(row => {
         count++;
-        return `"${row['Code erreur Paybox']}": { "description": "${row['Description']}", "state": "${row['Statut']}", "code": "${row['Code']}" }`;
+        return `"${row['Code PSP']}": { "description": "${row['Description']}", "state": "${row['State OP']}", "code": "${row['Code OP']}" }`;
     });
 }
 

@@ -1,45 +1,45 @@
 {
-  "0": {
+  "00": {
     "description": "Transaction approved or successfully processed",
     "state": "SUCCESS",
     "code": "SUCCEEDED"
   },
-  "2": {
+  "02": {
     "description": "Contact card issuer",
     "state": "ERROR",
     "code": "REJECTED_BANK"
   },
-  "3": {
+  "03": {
     "description": "Invalid acceptor",
     "state": "ERROR",
     "code": "REJECTED_BANK"
   },
-  "4": {
+  "04": {
     "description": "Keep card",
     "state": "ERROR",
     "code": "REJECTED_BANK"
   },
-  "5": {
+  "05": {
     "description": "Do not honor",
     "state": "ERROR",
     "code": "REJECTED_BANK"
   },
-  "6": {
+  "06": {
     "description": "Transaction invalid for terminal",
     "state": "ERROR",
     "code": "FAILED"
   },
-  "7": {
+  "07": {
     "description": "Honor with ID",
     "state": "SUCCESS",
     "code": "SUCCEEDED"
   },
-  "8": {
+  "08": {
     "description": "Time-Out",
     "state": "ERROR",
     "code": "TECHNICAL_ISSUE_TO_CONTACT_PARTNER"
   },
-  "9": { "description": "No original", "state": "ERROR", "code": "FAILED" },
+  "09": { "description": "No original", "state": "ERROR", "code": "FAILED" },
   "10": {
     "description": "Unable to reverse",
     "state": "ERROR",
@@ -182,7 +182,7 @@
     "code": "REJECTED_BY_RISK_CHECKS"
   },
   "51": {
-    "description": "Insufficient funds or overdraft",
+    "description": "Stolen card",
     "state": "ERROR",
     "code": "INSUFFICIENT_FUNDS"
   },
@@ -417,13 +417,13 @@
     "code": "FAILED"
   },
   "A1": { "description": "VADS fallback", "state": "ERROR", "code": "FAILED" },
-  "0": { "description": "Approved", "state": "SUCCESS", "code": "SUCCEEDED" },
-  "1": {
+  "000": { "description": "Approved", "state": "SUCCESS", "code": "SUCCEEDED" },
+  "001": {
     "description": "Approve with ID",
     "state": "SUCCESS",
     "code": "SUCCEEDED"
   },
-  "2": {
+  "002": {
     "description": "Partial approval (prepaid cards only)",
     "state": "SUCCESS",
     "code": "SUCCEEDED"
