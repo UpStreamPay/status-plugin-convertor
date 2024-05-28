@@ -18,20 +18,14 @@ Lien vers fichier type à ajouter
 
 ## Usage
 
-Sans argument supplémentaire, l'exécution se fait sur le premier onglet
+Sans argument supplémentaire, l'exécution se fait sur le premier onglet du fichier nommé mapping.xlsx dans le dossier assets :
 
 ```console
 node index.js
 ```
 
-Si tu mets 2 en argument, l'exécution se fera sur l'onglet 3
+Pour exécuter sur un fichier spécificique et sur un onglet spécifique, tu peux ajouter deux arguments supplémentaires :
 
 ```console
-node index.js 2
-```
-
-Pour formater le fichier output/status.json, tu peux utiliser la commande suivante:
-
-```console
-npm run format
+node index.js tab=2 path="./chemin/du/fichier.xlsx"
 ```

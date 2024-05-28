@@ -3,13 +3,7 @@
   "version": "1.0.0",
   "description": "Converts status from excel to json",
   "main": "index.js",
-  "scripts": {
-    "format": "prettier --write ./output/status.json"
-  },
   "dependencies": {
-    "xlsx": "^0.18.5"
-  },
-  "devDependencies": {
-    "prettier": "^3.2.5"
+    "exceljs": "^4.4.0"
   }
 }
